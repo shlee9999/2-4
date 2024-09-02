@@ -1,0 +1,89 @@
+.todo-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  border-radius: 10px;
+  height: 46px;
+  padding-left: 12px;
+}
+
+.delete-button {
+  margin-right: 5px;
+  width: 60px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: pink;
+  color: white;
+  border: none;
+}
+.delete-button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.delete-button:active {
+  filter: brightness(0.8);
+}
+
+.delete-button:focus {
+  outline: none;
+}
+.edit-button {
+  margin-right: 2px;
+  width: 60px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: skyblue;
+  color: white;
+  border: none;
+}
+.edit-button:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.edit-button:active {
+  filter: brightness(0.8);
+}
+
+.edit-button:focus {
+  outline: none;
+}
+
+.text,
+.editor {
+  background-color: transparent;
+  flex: 1;
+  margin-left: 5px;
+}
+.text {
+  text-align: left;
+  position: relative;
+}
+
+.editor {
+  padding: 0;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.left-box {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.text_toggle {
+  text-decoration: line-through;
+}
+
+.text:hover {
+  cursor: pointer;
+}
+
+:visited {
+  color: black;
+}

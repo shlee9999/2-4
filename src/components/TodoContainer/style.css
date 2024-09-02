@@ -1,0 +1,32 @@
+.todo-con {
+  top: 56px;
+  background-color: whitesmoke;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: #999 5px 5px 10px;
+  text-align: right;
+  width: 100%;
+  overflow: auto;
+  margin-top: 20px;
+  max-height: 500px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.todo-con::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.todo-con {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-todo {
+  position: absolute;
+  font-size: 1.5rem;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  color: rgba(145, 32, 32, 0.788);
+  font-weight: 600;
+}
