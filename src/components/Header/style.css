@@ -1,0 +1,11 @@
+header.header {
+  margin: auto;
+  min-width: var(--min-w);
+  max-width: var(--max-w);
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+}
