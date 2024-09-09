@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.app {
+  max-width: 860px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.content {
+  display: flex;
+  padding: 1rem;
+}
+
+.input-container,
+.list-area {
+  flex: 1;
+  padding: 1rem;
+}
+
+.input-container {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 2rem;
+  }
+
+  .app {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

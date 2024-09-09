@@ -1,0 +1,64 @@
+.input-container form > div {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input-container input {
+  width: 70%;
+  padding: 0.5rem;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.input-container .group-con {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.input-container select {
+  width: 60%;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+.input-container button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.input-container button:hover {
+  background-color: #0056b3;
+}
+
+.input-container button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.input-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: red;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+}
